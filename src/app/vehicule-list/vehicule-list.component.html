@@ -1,0 +1,15 @@
+<h2>Vehicules</h2>
+
+<div *ngFor="let vehicule of vehicules">
+  <h3>
+      {{ vehicule.name }}
+  </h3>
+  
+  
+  <!-- Input product est égale à product -->
+  <app-vehicule-details 
+  [vehicule]="vehicule"> 
+  </app-vehicule-details>
+
+
+</div>
